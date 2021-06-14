@@ -1,0 +1,53 @@
+body{
+	background-color: pink;
+}
+
+
+nav{
+	margin:0 10%;
+}
+
+.menu li{
+	list-style: none;
+	color:#000;
+	display: inline;
+	background:#fff;
+	margin: 0 20px;
+	border-radius: 5px;
+	padding: 10px 5 px 5 px 5px;
+}
+
+#encabezado{
+ color:#000;
+ text-align: center;
+ border-radius: 10px;
+ width: 80%;
+ margin: 10px 10 px;
+ padding: 10px 10px 10px 10px;
+ background-color: #8e44AD;
+}
+
+#piepagina {
+	color:000;
+	text-align: center;
+	border-radius: 0px;
+	width: 80%;
+    margin: 80% 10% 10 ;
+    height:150px;
+    background-color: #fff;
+    clear:both;
+}
+
+#section1{
+	float:left;
+	width:35%;
+	height:350%;
+	
+}
+ 
+ #section2{
+	float:left;
+	width:35%;
+	height:350%;
+	
+}

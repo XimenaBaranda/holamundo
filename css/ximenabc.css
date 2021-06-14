@@ -1,0 +1,18 @@
+#fondo{ 
+	color:black;
+
+}
+body{
+	 background-image: ("holamundo/images/sunset.jpg");
+}
+#encabezado{
+ color:##ECF0F1;
+ text-align: center;
+ border-radius: 10px;
+ width: 80%;
+ margin: 10px 10 px;
+ padding: 10px 10px 10px 10px;
+ background-color: #2471A3 ;
+
+
+}

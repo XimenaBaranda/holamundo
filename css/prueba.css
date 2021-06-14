@@ -1,0 +1,51 @@
+body{
+	background-color: #17202A ;
+}
+.inicio {
+    background-image: url("../images/ximena.jpg.jpg");
+}
+
+#encabezado{
+ color:#fff;
+ text-align: center;
+ border-radius: 10px;
+ width: 86%;
+ margin: 10px 10 px;
+ padding: 5px 100px 5px 100px;
+ background-color: #1A5276 ;
+}
+.cabecera{
+  color: #fff;
+  height: 500px;
+  line-height: 500px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: #111 0px 0px 10px;
+}
+#section1{
+	color:#fff;
+	text-align: left;
+	width:86%;
+	 margin: 10px 10 px;
+ padding: 5px 100px 5px 100px;
+ background-color:#7B7D7D ;
+}
+
+.menu li {
+	list-style: none;
+	color:#000;
+	display: inline;
+	background:#fff;
+	margin: 100 400px;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+}
+.p1{
+ color:#fff ;
+ text-align: center;
+ border-radius: 20px;
+ width: 86%;
+ margin: 10px 10 px;
+ padding: 50px 50px 5px 100px;
+ background-color: #1A5276 ;
+}
