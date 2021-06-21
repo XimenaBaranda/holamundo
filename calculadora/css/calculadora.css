@@ -1,0 +1,39 @@
+form {
+  width: 80%;
+  max-width: 360px;
+  text-align: center;
+  border: solid 1px #000;
+  padding-bottom: 20px;
+  margin: auto;
+  background: #000;
+}
+input[type=textfield] {
+    width: 75%;
+    padding: 16px 32px;
+    font-size: 55px;
+    margin: 8px 0;
+    border: none;
+    border-radius: px;
+    text-align: right;
+    color: #fff;
+    background: #000;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #727979 ;
+    border-radius: 68%;
+    color: white;
+    padding: 40px 20px;
+    font-size: 21px;
+    min-width: 20%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #333;
+}
+
+.cero{
+	.button{border-radius:100%; color: #727979;}
+
+}

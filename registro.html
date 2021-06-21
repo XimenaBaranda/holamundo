@@ -1,0 +1,114 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> Registro de formulario </title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="css/formulario.css">
+
+</head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
+  />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+<script src="js/sweetalert2.all.min.js"></script>
+<link rel="stylesheet" href="css/sweetalert2.css">
+
+<body>
+	<div align="center" id="Alerta"></div>
+
+	<form action="/recursoenServidor" method="post" onsubmit="return validarFormulario(this)" accept-charset="utf-8">
+		<div align="center">
+		<h3>Formulario de registro</h3>
+	<table width="200" id="one-column-emphasis">
+		
+		<tr><td class="oce-first">Usuario: </td> <td>
+			<input class="default" type="text" name="usuario" placeholder="Escribe tu nombre de usuario:" />
+		</td></tr>
+<tr>  <td class="oce-first">Contraseña: </td> 
+         <td>
+			<input class="default" type="password" name="password" placeholder="Escribe tu contraseña de usuario:" />
+		</td>
+		</tr>
+		<tr>  <td class="oce-first">Email: </td> 
+         <td>
+			<input class="default" type="email" name="email" placeholder="Escribe tu correo electrónico" />
+		</td>
+		</tr>
+<tr>  <td class="oce-first">Selecciona tecnologías de interes: </td> 
+         <td>
+			JAVA <input class="default" type="checkbox" name="tecnologia" value="JAVA" />
+			PHP <input class="default" type="checkbox" name="tecnologia" value="PHP" />
+			.NET <input class="default" type="checkbox" name="tecnologia" value=".NET" />
+		</td>
+		</tr>
+<tr>  <td class="oce-first">Selecciona tu género:  </td> 
+         <td>
+			Hombre <input class="default" type="radio" name="genero" value="Hombre" />
+			Mujer <input class="default" type="radio" name="genero" value="Mujer" />
+
+		</td>
+		</tr>
+<tr>  <td class="oce-first">Selecciona tu ocupación:  </td> 
+         <td>
+			<select name="ocupacion">
+				<option value="">Selecciona alguno</option>
+				<option value="1">Profesor</option>
+				<option value="2">Estudiante</option>
+				<option value="3">Ingeniero</option>
+				<option value="4">Jubilado</option>
+				<option value="5">Otro</option>
+
+			</select>
+		</td>
+		</tr>
+<tr>  <td class="oce-first">Selecciona musica favorita:  </td> 
+         <td>
+			<select name="musica" multiple>
+				<option value="rock">ROCK</option>
+				<option value="pop">POP</option>
+				<option value="salsa">SALSA</option>
+
+			</select>
+		</td>
+		</tr>
+<tr>  <td class="oce-first">Escribe tus comentarios:  </td> 
+         <td>
+			
+				<textarea name="comentarios" cols="30" rows="3">
+				</textarea>
+
+			
+		</td>
+		</tr>
+
+
+		 <tr>  
+         	<td> <input class="default" type="reset" value="Limpiar"> </td> 
+            <td> <input class="default" type="submit" value="Guardar"> </td>
+ 
+		</tr>
+
+
+</div>
+
+	</table>
+</form>
+
+		</table>
+	</form>
+
+
+
+
+<script src="js/validacion.js"></script>
+</body>
+</html>
